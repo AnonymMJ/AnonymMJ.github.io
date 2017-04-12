@@ -326,6 +326,10 @@ hr.small {
   text-decoration: none;
   color: #404040;
 }
+.post-preview > .post-meta > span{
+  font-weight: bold;
+  color: blue;
+}
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
   color: #2b79c3;
