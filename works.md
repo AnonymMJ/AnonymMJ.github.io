@@ -11,7 +11,7 @@ header-img: "img/semantic.jpg"
         <div class="post-content-preview">
             {{ talk.content }}
         </div>
-    <p class="post-meta">Talked on {{ talk.date | date: "%Y-%m-%d %m:%s" }}</p>
+    <p class="post-meta">Talked on {{ talk.date | date: "%Y-%m-%d %H:%M" }}</p>
 </div>
 {% endif %}
 <hr>
