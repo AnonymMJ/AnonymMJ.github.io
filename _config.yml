@@ -1,10 +1,10 @@
 # Site settings
-title: 读立写生
+title: 梦境
 header-img: "img/Xacebook.jpg"
 tagline: "cn"  
-description: "陈素封|读而立·写而生"  
+description: "种一颗树最好的机会是在十年前，第二就是现在。"  
 baseurl: ""
-url: "http://www.cnfeat.com"  
+url: "http://www.AnonymMJ.com"  
 
 # About/contact
 owner: 
@@ -16,12 +16,10 @@ owner:
 gavatar: http://openmindclub.qiniudn.com/omt/GavatarCNFeat.png
 favicon: img/favicon.png
 
-douban_username:  cnfeat
-twitter_username: feat
-github_username: cnfeat
-facebook_username: 
-weibo_username: cnfeat 
-zhihu_username: feat
+github_username: AnonymMJ
+facebook_username: AnonymMJ丶
+weibo_username: 丶醉丶梦丶境丶 
+zhihu_username: 梦境丶
 
 # Build settings  
 # use Github Flavored Markdown !important  
