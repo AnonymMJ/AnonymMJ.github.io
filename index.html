@@ -3,22 +3,28 @@ layout: page
 description: "种一棵树最好的机会是在十年前，第二就是现在。"
 ---
 
-{% for post in paginator.posts %}
+{% for page in paginator.posts %}
 <div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
+    {% if page.istalk %}
+    <a href="{{ page.url | prepend: site.baseurl }}">
         <h2 class="post-title">            
-            {{ post.title }}
+            {{ page.title }}
         </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
         <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:55 }}
+            {{ page.description }}
         </div>
     </a>
-    <p class="post-meta">Posted on {{ post.date | date: "%Y-%m-%d" }}</p>
+    <p class="post-meta"><b>Talked</b> on {{ post.date | date: "%Y-%m-%d" }}</p>
+    {% ifelse %}
+    <a href="{{ page.url | prepend: site.baseurl }}">
+        <h2 class="post-title">            
+            {{ page.title }}
+        </h2>
+        <div class="post-content-preview">
+            {{ page.description }}
+        </div>
+    </a>
+    <p class="post-meta"><b>Posted</b> on {{ page.date | date: "%Y-%m-%d" }}</p>
 </div>
 
 <hr>
