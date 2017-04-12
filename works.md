@@ -8,9 +8,9 @@ header-img: "img/semantic.jpg"
 {% for talk in paginator.talks %}
 <div class="post-preview">
         <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:55 }}
+            {{ talk.content }}
         </div>
-    <p class="post-meta">Talked on {{ post.date | date: "%Y-%m-%d" }}</p>
+    <p class="post-meta">Talked on {{ talk.date | date: "%Y-%m-%d %m:%s" }}</p>
 </div>
 
 <hr>
