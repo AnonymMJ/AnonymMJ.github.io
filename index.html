@@ -9,7 +9,7 @@ description: "种一棵树最好的机会是在十年前，第二就是现在。
         <div class="post-content-preview">
             {{ page.content }}
         </div>
-    <p class="post-meta"><b>Talked</b> on {{ page.date | date: "%Y-%m-%d %H:%M" }}</p>
+    <p class="post-meta"><span>Talked</span> on {{ page.date | date: "%Y-%m-%d %H:%M" }}</p>
     {% endif %}
     {% if page.istalk==false %}
     <a href="{{ page.url | prepend: site.baseurl }}">
@@ -20,7 +20,7 @@ description: "种一棵树最好的机会是在十年前，第二就是现在。
             {{ page.description }}
         </div>
     </a>
-    <p class="post-meta"><b>Posted</b> on {{ page.date | date: "%Y-%m-%d" }}</p>
+    <p class="post-meta"><span>Posted</span> on {{ page.date | date: "%Y-%m-%d" }}</p>
     {% endif %}
 </div>
 
