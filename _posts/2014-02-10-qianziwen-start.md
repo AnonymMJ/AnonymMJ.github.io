@@ -3,6 +3,7 @@ layout: post
 title: 千字文的开始
 date: 2014-02-10
 categories: blog
+istalk: false
 tags: [书写,思考]
 description: 我坚信每天写一写必定可以提高自己写作能力和讲故事的能力，同时这也是一种个人的商业模式，虽然目前必定不能带来受益，但是我相信未来必定会带来好处。
 ---
