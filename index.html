@@ -5,12 +5,13 @@ description: "种一棵树最好的机会是在十年前，第二就是现在。
 
 {% for page in paginator.posts %}
 <div class="post-preview">
-    {% if page.istalk %}
+    {% if page.istalk==true %}
         <div class="post-content-preview">
             {{ page.description }}
         </div>
     <p class="post-meta"><b>Talked</b> on {{ page.date | date: "%Y-%m-%d %H:%M" }}</p>
-    {% else %}
+    {% endif %}
+    {% if page.istalk==false %}
     <a href="{{ page.url | prepend: site.baseurl }}">
         <h2 class="post-title">            
             {{ page.title }}
