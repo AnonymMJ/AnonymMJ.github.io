@@ -10,7 +10,7 @@ description: "种一棵树最好的机会是在十年前，第二就是现在。
             {{ page.description }}
         </div>
     <p class="post-meta"><b>Talked</b> on {{ page.date | date: "%Y-%m-%d %H:%M" }}</p>
-    {% ifelse %}
+    {% else %}
     <a href="{{ page.url | prepend: site.baseurl }}">
         <h2 class="post-title">            
             {{ page.title }}
