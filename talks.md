@@ -8,7 +8,7 @@ header-img: "img/semantic.jpg"
 {% for talk in site.posts %}
 {% if talk.istalk %}
 <div class="post-preview">
-        <div class="post-content-preview">
+        <div class="post-content-preview talk-container">
             {{ talk.content }}
         </div>
     <p class="post-meta">Talked on {{ talk.date | date: "%Y-%m-%d %H:%M" }}</p>
