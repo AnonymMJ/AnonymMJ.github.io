@@ -9,13 +9,13 @@ url: "http://www.AnonymMJ.com"
 
 # About/contact
 owner: 
-  name: " CNFeat"
-  email: CnFeat@gmail.com
+  name: " AnonymMJ"
+  email: AnonymMJ@gmail.com
   bio: "写就是写的报酬"
 
 # Data
-gavatar: http://openmindclub.qiniudn.com/omt/GavatarCNFeat.png
-favicon: img/favicon.png
+gavatar: http://oobn39nrf.bkt.clouddn.com/MJ.png
+favicon: http://oobn39nrf.bkt.clouddn.com/small_MJ.png
 
 github_username: AnonymMJ
 facebook_username: AnonymMJ丶
@@ -41,16 +41,14 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "CNFeat"
+      author: "AnonymMJ"
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
   provider : disqus
-  duoshuo :
-    short_name : cnfeat
   disqus :
-      short_name : cnfeat
+      short_name : AnonymMJ
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-80884545-1
