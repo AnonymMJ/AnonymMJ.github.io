@@ -8,7 +8,7 @@ header-img: "img/orange.jpg"
 
 <ul class="listing">
 {% for post in site.posts %}
-{% if pst.istalk==false %}
+{% if post.istalk==false %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
