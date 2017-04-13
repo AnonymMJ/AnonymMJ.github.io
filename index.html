@@ -6,7 +6,7 @@ description: "种一棵树最好的机会是在十年前，第二就是现在。
 {% for page in paginator.posts %}
 <div class="post-preview">
     {% if page.istalk==true %}
-        <div class="post-content-preview">
+        <div class="post-content-preview talk-container">
             {{ page.content }}
         </div>
     <p class="post-meta"><span>Talked</span> on {{ page.date | date: "%Y-%m-%d %H:%M" }}</p>
