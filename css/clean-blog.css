@@ -113,6 +113,9 @@ hr.small {
   line-height: 2;
   margin-top: 20px;
 }
+.talk-container img{
+  float: left;
+}
 .navbar-custom {
   background: white;
   position: absolute;
