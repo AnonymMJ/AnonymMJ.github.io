@@ -40,38 +40,22 @@ layout: default
 
                 {{ content }}
                 </div>
-
+<!--
                 <hr style="clear:both;">
 
                 <ul class="pager">
-                    {% assign changepage = page %}
-                    {% for i in site.posts %}
-                    {% if assign.previous.url  %}
-                    {% if assign.previous.istalk==false %}
+                    {% if page.previous.url  %}
                     <li class="previous">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
                     </li>
-                    {% endfor %}
-                    {% else %}
-                    {% assign changepage=page.previous %}
                     {% endif %}
-                    {% endif %}
-                    {% end for %}
-                    
-                    {% for i in site.posts %}
-                    {% if assign.next.url  %}
-                    {% if assign.next.istalk==false %}
+                    {% if page.next.url  %}
                     <li class="next">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
                     </li>
-                    {% endfor %}
-                    {% else %}
-                    {% assign changepage=page.next %}
                     {% endif %}
-                    {% endif %}
-                    {% endfor %}
                 </ul>
-            
+            -->
         </div>
     </div>
 </article>
