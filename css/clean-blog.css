@@ -269,8 +269,12 @@ hr.small {
 }
 .intro-header .post-heading .subheading {
   font-family: "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  line-height: 1.7;
+  font-size: 17px;
+  font-weight: normal;
+  margin: 10px 0 30px;
+  margin-top: -5px;
   color: rgba(192,192,192,0.8);
-  font-size: 10px;
 }
 .intro-header .post-heading .meta {
   font-family: 'Lora', 'Times New Roman', serif;
